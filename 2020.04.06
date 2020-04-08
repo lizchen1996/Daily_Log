@@ -1,0 +1,63 @@
+1
+yh = [[]] * num
+# 不知道怎么怎么用的
+
+2
+main 函数怎么用的
+
+3
+
+
+------------------------------------------有待学习（优先选择可以成为数据分析的来学）---------------------------------------
+
+GUI 图形界面
+
+Tkinter : Tkinter
+
+wxPython: wxPython
+
+PyGTK: PyGTK
+
+PyQt: PyQt
+
+PySide: PySide
+
+爬虫相关
+urllib 、urllib2 、requests
+
+scrapy： scrapy
+
+pyspider： pyspider
+
+portia： portia
+
+html2text： html2text
+
+BeautifulSoup： BeautifulSoup
+
+lxml： lxml
+
+selenium：selenium
+
+mechanize： mechanize
+
+PyQuery： pyquery
+
+creepy： creepy
+
+图像处理
+
+bigmoyan：scikit-image 
+
+Python Imaging Library (PIL)：pil
+
+pillow： pillow
+
+python-qrcode： python-qrcode
+
+
+
+有待学习的包
+
+
+https://www.scipy.org/
