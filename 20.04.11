@@ -1,0 +1,58 @@
+今天先把自己能找到的资料都看一看，把自己需要的fork到自己的GitHub中
+
+首先今天学习任务：
+Python100day
+GitHub宝藏
+
+
+狗家电面试题：
+就是给一个list的numbers，长度是n，找出最长的sublist, 在这个sublist中，没有差值是大于d的两个数。
+
+这道题感觉是不是该二分+队列来做？
+简单来说有个range，是1-N，然后对每个k，去找sliding window为K的长度的maximum和minimum，看每个window的差值是否符合条件。
+这样子的时间复杂度应该是O(NlogN).
+参考代码:
+def minmaxSlidingWindow(nums, k, d):
+    dmax = collections.deque()
+    dmin = collections.deque()
+    for i, n in enumerate(nums):
+        while dmax and nums[dmax[-1]] < n:
+            dmax.pop()
+        dmax.append(i)
+        while dmin and nums[dmin[-1]] > n:
+            dmin.pop()
+        dmin.append(i)
+        if dmax[0] == i - k:
+            dmax.popleft()
+        if dmin[0] == i - k:
+            dmin.popleft()
+        if i >= k - 1:
+            if nums[dmax[0]] - nums[dmin[0]] <= d:
+                return True
+    return False
+ 
+def longestSubarrayLength(nums, d):
+    lo, hi = 1, len(nums) + 1
+    while lo < hi:
+        mid = lo + (hi - lo) // 2
+        if minmaxSlidingWindow(nums, mid, d):
+            lo = mid + 1
+        else:
+            hi = mid
+    return lo - 1
+ 
+nums = [4, 8, 6, 5, 9, 7, 2, 3, 1]
+for d in range(9):
+    print(d, longestSubarrayLength(nums, d))
+    
+
+转码干的最多是web开发
+整个互联网行业都在从桌面应用转向web
+路线就是SQL, python, flask, java, spring mvc
+去udemy上一个python web开发的课
+
+
+
+
+
+
