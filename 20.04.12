@@ -1,0 +1,22 @@
+不断记录自己的思考锚点，每十五分钟，半个小时，都是一次脑力冲刺，看看这段时间有没有把自己想要了解的知识点解决掉。
+
+SQL蛮重要的，可以先搜集一下，SQL如何学习，需要达到什么样的效果。
+
+Homebrew 在这个GitHub上可以发布自己的问题，真棒，update slow speed 也没问题
+
+关于数据分析岗位，显而易见，这类岗位确实有，但要求的素质也很高，基本上case的分析能力是要有的，有自己的系统来分析和解决问题。
+参考网址：https://www.1point3acres.com/bbs/thread-462895-1-1.html
+
+data analytics 方向的准备：
+sql/r/python+case study > experiment design > machine learning
+重点就是sql+case study
+
+参考网址：
+（ABtesting）https://www.udacity.com/course/ab-testing--ud257
+（假设检验）https://onlinecourses.science.psu.edu/stat414/node/290
+（前人经验）https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=330947&extra=page%3D1%26filter%3Dsortid%26sortid%3D311%26sortid%3D311
+（Airbnb实例）https://medium.com/airbnb-engineering/at-airbnb-data-science-belongs-everywhere-917250c6beba
+
+如何学习SQL：
+推荐的学习路径: https://www.applysquare.com/topic-cn/W1nAtR2fi/
+              https://www.zhihu.com/question/19552975
